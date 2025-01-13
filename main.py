@@ -448,7 +448,7 @@ def main():
     banner = f"""
 {Fore.LIGHTCYAN_EX}╔═══════════════════════════════════════════╗
 ║            Teneo Autoreferral             ║
-║       https://github.com/im-hanzou        ║
+║       https://github.com/Mittyadav        ║
 ╚═══════════════════════════════════════════╝{Style.RESET_ALL}
 """
     print(banner)    
@@ -485,7 +485,7 @@ def main():
                 log_message(i+1, count, f"Password: {account['password']}", "success")
                 log_message(i+1, count, f"Wallet Address: {account['wallet_address']}", "success")
                 log_message(i+1, count, f"Points: 51000", "success")
-                log_message(i+1, count, f"{Fore.LIGHTRED_EX}Link Bot: https://github.com/im-hanzou/teneo-bot{Fore.RESET}", "success") 
+                log_message(i+1, count, f"{Fore.LIGHTRED_EX}Link Bot: https://github.com/Mittyadav/teneoreff{Fore.RESET}", "success") 
                 log_message(i+1, count, f"{Fore.LIGHTRED_EX}Please ensure that all successfully referred accounts run teneo-bot{Fore.RESET}", "success")  
             else:
                 log_message(i+1, count, f"Failed: {message}", "error")
